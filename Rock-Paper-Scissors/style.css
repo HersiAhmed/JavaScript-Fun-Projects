@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/games');
+
+*{
+    background-color: #f8f4f4;
+    font-family: 'Games', sans-serif;
+}
+
+.result{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.player{
+    border: 10px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.move{
+    width: 200px;
+}
+
+.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
